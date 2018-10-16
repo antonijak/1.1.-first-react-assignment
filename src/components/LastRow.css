@@ -1,0 +1,35 @@
+#last-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#testimonials {
+  width: 41.22rem;
+  position: relative;
+  border-top: 10px solid transparent;
+  border-image: url(../assets/Border-BG.PNG) 30 repeat; 
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding-top: 2rem;
+}
+
+#developement {
+  width: 20rem;
+  position: relative;
+  border-top: 10px solid transparent;
+  border-image: url(../assets/Border-BG.PNG) 30 repeat; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.tabs {
+  position: relative;
+  display: flex;
+  height: 20.2rem;
+  margin-top: 3rem;
+}

@@ -1,0 +1,56 @@
+.tab label {
+  background: #eee;
+  padding: 17px 30px;
+  margin-left: -1px;
+  position: relative;
+  left: 1px;
+  font-size: .9em;
+}
+
+.tab [type=radio] {
+  display: none;
+}
+
+.tab-content {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 15px 0px 40px -20px grey;
+}
+
+[type=radio]:checked~label {
+  background: white;
+  border-bottom: 1px solid white;
+  z-index: 2;
+}
+
+[type=radio]:checked~label~.content {
+  z-index: 1;
+}
+
+.tab-content h5 {
+  margin: 0.5em 0 .2em;
+}
+
+.tab-content p {
+  margin: 0 0 .5em;
+  font-size: .8em;
+}
+
+.tab-content button {
+  background-color: #599cde;
+  background: linear-gradient(#599cde, #4f779f);
+  color: white;
+  padding: 13px 19px;
+  font-size: .9em;
+  border-radius: 4px;
+  border: none;
+  align-self: flex-end;
+} 
