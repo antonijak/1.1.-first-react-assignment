@@ -141,27 +141,28 @@ footer {
   font-weight: normal;
 }
 
-#icons i {
+.tooltip svg {
   color: #262626;
   margin-left: 12.5px;
   font-size: 27px;
 }
 
-#icons i:hover {
+.tooltip svg:hover {
   color: white;
 }
 
 #arrow {
   position: fixed;
-  top: 90%;
-  left: 90%;
-  font-size: 60px;
-  color: #262626;
+  top: 87.5%;
+  left: 95%;
+  
+ 
   right: 1%;
 }
 
-.fa-caret-square-up {
-  border-radius: 50%;
+#arrow svg {
+  color: #262626;
+  font-size: 60px;
 }
 
 .tooltip {

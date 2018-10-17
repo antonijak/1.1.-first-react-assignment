@@ -1,5 +1,13 @@
 import React from 'react';
 import './Footer.css';
+import { FaTwitterSquare } from 'react-icons/fa';
+import { FaFacebookSquare } from 'react-icons/fa';
+import { FaPinterestSquare } from 'react-icons/fa';
+import { FaVimeoSquare } from 'react-icons/fa';
+import { FaGooglePlusSquare } from 'react-icons/fa';
+import { FaGithubSquare } from 'react-icons/fa';
+import { FaCaretSquareUp } from 'react-icons/fa';
+
 
 const Footer = () => {
   return(
@@ -42,35 +50,35 @@ const Footer = () => {
         </div>
         </div>
       <div id="links">
-        <h4>COPYRIHT ALL RIGHTS RESERVED 2018</h4>
+        <h4>COPYRIHT © ALL RIGHTS RESERVED 2018</h4>
         <div id="icons">
           <a href="" className="tooltip">
-            <i className="fab fa-twitter-square" ></i>
+            <FaTwitterSquare />
             <div className="tooltiptext">Twitter</div>
           </a>
           <a href="" className="tooltip">
-            <i className="fab fa-facebook-square"></i>
+          <FaFacebookSquare />
             <div className="tooltiptext">Facebook</div>
           </a> 
           <a href="" className="tooltip">
-            <i className="fab fa-pinterest-square"></i>
+          <FaPinterestSquare />
             <div className="tooltiptext">Pinterst</div>
           </a>
           <a href="" className="tooltip">
-            <i className="fab fa-vimeo-square"></i>
+          <FaVimeoSquare />
             <div className="tooltiptext">Vimeo</div>
           </a>
           <a href="" className="tooltip">
-            <i className="fab fa-google-plus-square"></i>
+          <FaGooglePlusSquare />
             <div className="tooltiptext">Google +</div>
           </a> 
           <a href="" className="tooltip">
-            <i className="fab fa-github-square"></i>
+          <FaGithubSquare/>
             <div className="tooltiptext">GitHub</div>
           </a> 
         </div>
         <a href="#main-headline" id="arrow" title="top">
-          <i className="fas fa-caret-square-up"></i>
+          <FaCaretSquareUp />
         </a>
       </div>
     </footer>

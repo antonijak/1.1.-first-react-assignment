@@ -1,11 +1,12 @@
 import React from 'react';
 import './Trait.css'
 
-const Trait = () => {
+
+const Trait = (props) => {
   return(
     <div className="traits" id="superbly">
         <div className="round-icon">
-          <i className="fas fa-mobile-alt"></i>
+          {props.icon}
         </div>
         <h3>
           <span>SUPERBLY</span> RESPONSIVE</h3>
