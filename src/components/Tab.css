@@ -32,7 +32,7 @@
 }
 
 [type=radio]:checked~label~.content {
-  z-index: 1;
+  z-index: 5;
 }
 
 .tab-content h5 {

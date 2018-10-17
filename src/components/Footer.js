@@ -25,15 +25,15 @@ const Footer = () => {
         </div>
         <div className="foot-item" id="latest-tweets">
           <h4>LATEST TWEETS</h4>
-          <p>Lick yarn hanging out of own butt cat is love, cat is life.</p>
-          <p>Lick yarn hanging out of own butt cat is love, cat is life.</p>
+          <p>Lick yarn, hanging out of own butt cat is love, cat is life.</p>
+          <p>Lick yarn, hanging out of own butt cat is love, cat is life.</p>
         </div>
         <div className="foot-item" id="latest-posts">
           <h4>LATEST POSTS</h4>
-          <p className="foot-post" id="first-post">Lick yarn hanging out of own butt.</p>
-          <p className="foot-post" id="second-post">Lick yarn hanging out of own butt.e.</p>
-          <p className="foot-post">Lick yarn hanging out of own butt cat.</p>
-          <p>Lick yarn hanging out of own butt..</p>
+          <p className="foot-post" id="first-post">Lick yarn, hanging out of own butt.</p>
+          <p className="foot-post" id="second-post">Lick yarn, hanging out of own butt.e.</p>
+          <p className="foot-post">Lick yarn, hanging out of own butt cat.</p>
+          <p>Lick yarn, hanging out of own butt..</p>
         </div>
         <div className="foot-item" id="flickr">
           <h4>FLICKR</h4>
@@ -48,7 +48,7 @@ const Footer = () => {
             <div className="black-square" id="b8"></div>
           </div>
         </div>
-        </div>
+      </div>
       <div id="links">
         <h4>COPYRIHT © ALL RIGHTS RESERVED 2018</h4>
         <div id="icons">
@@ -58,7 +58,6 @@ const Footer = () => {
           <LinkIcon link='https://vimeo.com/' icon={<FaVimeoSquare />}/>
           <LinkIcon link='https://plus.google.com/' icon={<FaGooglePlusSquare />}/>
           <LinkIcon link='https://github.com/' icon={<FaGithubSquare />}/>
-          
         </div>
         <a href="#main-headline" id="arrow" title="top">
           <FaCaretSquareUp />

@@ -17,8 +17,20 @@ const LastRow = () => {
       <div id="developement">
         <h4 className="border-text">RECENT WORK</h4>
           <div className="tabs">
-            <Tab />
-            <Tab />
+            <Tab 
+            button="DESIGN"
+            id="tab-1"
+            name="tab-group-1"
+            title="The Design"
+            checked={true}
+            />
+            <Tab 
+            button="PRODUCTION"
+            id="tab-2"
+            name="tab-group-2"
+            title="Production"
+            checked={false}
+            />
           </div>
       </div>
 
