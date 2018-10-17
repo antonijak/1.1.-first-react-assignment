@@ -1,5 +1,6 @@
 import React from 'react';
 import './Footer.css';
+import LinkIcon from './LinkIcon'
 import { FaTwitterSquare } from 'react-icons/fa';
 import { FaFacebookSquare } from 'react-icons/fa';
 import { FaPinterestSquare } from 'react-icons/fa';
@@ -7,7 +8,6 @@ import { FaVimeoSquare } from 'react-icons/fa';
 import { FaGooglePlusSquare } from 'react-icons/fa';
 import { FaGithubSquare } from 'react-icons/fa';
 import { FaCaretSquareUp } from 'react-icons/fa';
-
 
 const Footer = () => {
   return(
@@ -52,30 +52,13 @@ const Footer = () => {
       <div id="links">
         <h4>COPYRIHT © ALL RIGHTS RESERVED 2018</h4>
         <div id="icons">
-          <a href="" className="tooltip">
-            <FaTwitterSquare />
-            <div className="tooltiptext">Twitter</div>
-          </a>
-          <a href="" className="tooltip">
-          <FaFacebookSquare />
-            <div className="tooltiptext">Facebook</div>
-          </a> 
-          <a href="" className="tooltip">
-          <FaPinterestSquare />
-            <div className="tooltiptext">Pinterst</div>
-          </a>
-          <a href="" className="tooltip">
-          <FaVimeoSquare />
-            <div className="tooltiptext">Vimeo</div>
-          </a>
-          <a href="" className="tooltip">
-          <FaGooglePlusSquare />
-            <div className="tooltiptext">Google +</div>
-          </a> 
-          <a href="" className="tooltip">
-          <FaGithubSquare/>
-            <div className="tooltiptext">GitHub</div>
-          </a> 
+          <LinkIcon link='https://twitter.com/' icon={<FaTwitterSquare /> }/>
+          <LinkIcon link='https://facebook.com/' icon={<FaFacebookSquare />}/>
+          <LinkIcon link='https://pinterest.com/' icon={<FaPinterestSquare />}/>
+          <LinkIcon link='https://vimeo.com/' icon={<FaVimeoSquare />}/>
+          <LinkIcon link='https://plus.google.com/' icon={<FaGooglePlusSquare />}/>
+          <LinkIcon link='https://github.com/' icon={<FaGithubSquare />}/>
+          
         </div>
         <a href="#main-headline" id="arrow" title="top">
           <FaCaretSquareUp />

@@ -22,7 +22,10 @@ const LastRow = () => {
           </div>
       </div>
 
-    <Banner text={<h2>GET IN TOUCH WITH US<span>NOW!</span></h2>}/>
+    <Banner 
+    text={<h2>GET IN TOUCH WITH US<span>NOW!</span></h2>}
+    button= 'CONTACT US'
+    />
    </div>
   );
 }

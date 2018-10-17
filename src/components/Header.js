@@ -17,7 +17,9 @@ const Header = () => {
     <p>Find out now how you can offer quick and powerful solutions to you customers now!</p>
     <button className="big-button">LEARN MORE</button>
     </div>
-    <Banner text={<h2>CREATE A<span>POWERFUL</span> SOLUTION NOW!</h2>}/>
+    <Banner 
+    text={<h2>CREATE A<span>POWERFUL</span> SOLUTION NOW!</h2>}
+    button= 'GET STARTED'/>
     </header>
   );
 }

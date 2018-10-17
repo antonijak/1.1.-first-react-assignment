@@ -5,7 +5,7 @@ const Banner = (props) => {
   return(
     <div className="banner" id="banner1">
     {props.text}
-    <button className="big-button">GET STARTED</button>
+    <button className="big-button">{props.button}</button>
   </div>
   );
 }
